@@ -8,3 +8,8 @@ if GS<300000:
     print(" income tax",GS)
 if GS>300000 and GS<1000000:
     print(" income tax is",0.1*GS)
+if GS>1000000 and GS<2500000:
+    print(" income tax is",0.2*GS)
+if GS>2500000:
+    print("income tax is:,0.3*GS)
+    
